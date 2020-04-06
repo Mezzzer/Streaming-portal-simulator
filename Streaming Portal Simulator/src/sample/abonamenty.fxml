@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="290.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAbonamenty">
+   <children>
+      <AnchorPane layoutX="38.0" layoutY="19.0" prefHeight="257.0" prefWidth="260.0">
+         <children>
+            <Text layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonament: Basic" wrappingWidth="167.10009765625" />
+            <Text layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonament: Family" />
+            <Text layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonament: Pro" />
+            <TextField fx:id="textFieldBasic" layoutY="43.0" prefHeight="31.0" prefWidth="92.0" />
+            <TextField fx:id="textFieldFamily" layoutY="118.0" prefHeight="31.0" prefWidth="92.0" />
+            <TextField fx:id="textFieldPro" layoutY="187.0" prefHeight="31.0" prefWidth="92.0" />
+            <Button fx:id="przyciskBasic" layoutX="109.0" layoutY="43.0" mnemonicParsing="false" onAction="#onActionBasic" prefHeight="31.0" prefWidth="62.0" text="Zmien" />
+            <Button fx:id="przyciskFamily" layoutX="110.0" layoutY="118.0" mnemonicParsing="false" onAction="#onActionFamily" text="Zmien" />
+            <Button fx:id="przyciskPro" layoutX="110.0" layoutY="187.0" mnemonicParsing="false" onAction="#onActionPro" text="Zmien" />
+            <Text fx:id="textBasic" layoutX="180.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text fx:id="textFamily" layoutX="180.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text fx:id="textPro" layoutX="180.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
